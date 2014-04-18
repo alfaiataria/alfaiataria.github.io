@@ -14,12 +14,11 @@ title: alfaiataria
     {% for post in site.posts %}
       <li class="element {{ post.category }} " >
         <a href="{{ post.url }}">
+                
+        <img src="/assets/images/{{ post.image }}" class="img-responsive">
         <div class="inside-info">
         <h5>{{ post.title }}</h5> — {{ post.content }}
         </div>
-          
-        <img src="/assets/images/{{ post.image }}" class="img-responsive">
-        
       </a>
       </li>
     {% endfor %}
