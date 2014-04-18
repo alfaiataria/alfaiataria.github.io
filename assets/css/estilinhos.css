@@ -5925,7 +5925,7 @@ ul.main-menu {
   margin: auto;
   display: block;
   float: left;
-  margin-top: 20px;
+  margin-top: 40px;
   line-height: 20px;
 }
 ul.top-menu a,
@@ -5946,6 +5946,9 @@ ul.main-menu a:hover {
 }
 ul.main-menu {
   margin-top: 37px;
+}
+.image-list {
+  margin-top: 40px;
 }
 .element {
   float: left;
@@ -6011,7 +6014,7 @@ ul.main-menu {
 }
 .option-set li {
   float: left;
-  margin: 10px 20px 10px 0px;
+  margin: 0px 20px 0px 0px;
 }
 .isotope-item {
   z-index: 2;
