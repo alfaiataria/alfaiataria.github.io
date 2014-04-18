@@ -5896,6 +5896,9 @@ a {
   color: #666;
   font-weight: 500;
 }
+a:hover {
+  color: #4b144b;
+}
 ul {
   list-style-type: none;
   margin: 0px;
@@ -5907,6 +5910,9 @@ ul {
   border-bottom-width: 1px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.header a:hover {
+  color: #4b144b;
 }
 .footer {
   border-top-color: #dcdcdc;

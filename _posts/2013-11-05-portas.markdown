@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Portas das Percepção"
+title:  "Portas da Percepção"
 category: livros
 image: 2013-ant-portas.jpg
 ---
