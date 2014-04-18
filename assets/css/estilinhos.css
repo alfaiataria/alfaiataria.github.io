@@ -5875,6 +5875,7 @@ button.close {
   ---------------------------------------------------*/
 body {
   font-family: 'Raleway';
+  font-size: 12px;
 }
 a,
 ul,
@@ -5892,12 +5893,42 @@ a {
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  color: #666;
+  font-weight: 500;
 }
 ul {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  border-bottom-color: #dcdcdc;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer {
+  border-top-color: #dcdcdc;
+  border-top-style: dotted;
+  border-top-width: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #666;
+  font-size: 10px;
+  margin-top: 40px;
+}
+.footer li {
+  margin-bottom: 10px;
+}
+.footer .cv-year li {
+  margin-bottom: 5px;
+}
+.footer li.cv-list-year {
+  padding-top: 5px;
 }
 h1.title {
-  margin: 20px 10px 0px 0px;
+  margin: -17px 0px 0px 0px;
   display: block;
   text-align: left;
   float: left;
@@ -5907,7 +5938,6 @@ h1.title {
   font-size: 14.5px;
   font-family: 'Raleway';
   font-weight: 700;
-  line-height: 18px;
 }
 .title a:hover {
   color: #878787;
@@ -5922,10 +5952,10 @@ h1.title {
 }
 ul.top-menu,
 ul.main-menu {
-  margin: auto;
+  margin: 0px;
+  padding: 0px;
   display: block;
   float: left;
-  margin-top: 40px;
   line-height: 20px;
 }
 ul.top-menu a,
@@ -5944,8 +5974,16 @@ ul.top-menu a:hover,
 ul.main-menu a:hover {
   color: #4b144b;
 }
-ul.main-menu {
-  margin-top: 37px;
+ul.main-menu li {
+  margin-left: 20px;
+}
+ul.top-menu {
+  margin-top: 40px;
+}
+.contact {
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 1px;
 }
 .image-list {
   margin-top: 40px;
@@ -5997,11 +6035,11 @@ ul.main-menu {
   padding: 10px;
 }
 .element.livros {
-  width: 207px;
+  width: 206px;
   z-index: 10;
 }
 .element.cartazes {
-  width: 434px;
+  width: 432px;
   z-index: 10;
 }
 .element:hover {
@@ -6051,6 +6089,11 @@ ul.main-menu {
 }
 .post ul {
   margin-left: 0px;
+}
+@media all and (min-width: 1200px) {
+  .post-img {
+    padding-right: 30px;
+  }
 }
 .post-img img {
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
