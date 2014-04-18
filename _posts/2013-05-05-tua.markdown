@@ -3,6 +3,8 @@ layout: post
 title:  "Linha do Tua"
 category: livros
 image: 2013-dafne-tua.jpg
+tags:
+- Dafne
 ---
 
 - 15 x 22,5 cm

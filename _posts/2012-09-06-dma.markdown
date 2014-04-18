@@ -3,6 +3,8 @@ layout: post
 title:  "Arquitectura em Outubro"
 category: cartazes
 image: 2012-oa-dma.jpg
+tags:
+- Ordem dos Arquitectos
 ---
 
 - 50 x 70 cm

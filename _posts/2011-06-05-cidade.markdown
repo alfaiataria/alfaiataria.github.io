@@ -3,6 +3,8 @@ layout: post
 title:  "Cidade ao Largo"
 category: cartazes
 image: 2011-oa-cidade.png
+tags:
+- Ordem dos Arquitectos
 ---
 
 - 25 x 70 cm

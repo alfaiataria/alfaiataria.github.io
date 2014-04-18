@@ -3,6 +3,8 @@ layout: post
 title:  "1984"
 category: livros
 image: 2012-ant-1984.jpg
+tags:
+- Antígona
 ---
 
 - 13 x 21 cm

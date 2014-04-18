@@ -3,6 +3,8 @@ layout: post
 title:  "Religião República e Educação — antologia"
 category: livros
 image: 2012-ant-tomas-antologia.jpg
+tags:
+- Antígona
 ---
 
 - 13 x 21 cm

@@ -3,6 +3,8 @@ layout: post
 title:  "Barbuda"
 category: cartazes
 image: 2012-cc-barba.jpg
+tags:
+- Canal Caveira
 ---
 
 - 32 x 45 cm

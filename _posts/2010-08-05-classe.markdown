@@ -3,6 +3,8 @@ layout: post
 title:  "Classe"
 category: livros
 image: 2010-ant-classe.jpg
+tags:
+- Antígona
 ---
 
 - 13 x 21 cm

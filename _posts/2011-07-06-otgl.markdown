@@ -3,6 +3,8 @@ layout: post
 title:  "Ocupação temporária de génese legal"
 category: cartazes
 image: 2011-oa-otgl.jpg
+tags:
+- Ordem dos Arquitectos
 ---
 
 - 50 x 70 cm
