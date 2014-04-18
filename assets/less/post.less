@@ -1,0 +1,81 @@
+.post {
+	margin-top: 40px;
+	ul {
+		margin-left:0px;
+	}
+}
+
+.post-img img{
+	.drop-shadow(@x-axis: 0, @y-axis: 1px, @blur: 5px, @alpha: 0.2);
+}
+.post-info {
+	text-align:left;
+	text-transform: uppercase;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: 1px;
+	
+
+	h2 {
+	text-align:left;
+	font-weight: 700;
+
+	}
+
+
+}
+
+.post-links {
+
+	border-left: solid 1px rgb(240,240,240,);
+
+
+	.inside-post {
+		margin-left: 40px;
+	}
+
+	ul.top-menu {
+		margin-top: 14px;
+		margin-bottom: 10px;
+		margin-left: 40px;
+		line-height: 16px;
+	}
+
+	ul.top-menu li{
+		float: none;
+		text-align: left;
+		margin: 0px 20px 0px 0px;
+	}
+
+	.element {
+		width: 90px;
+		margin:5px 10px 5px 0px;
+
+		img.grayscale {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -webkit-transform: translateZ(0); /* this is the magic line! */
+	}
+
+	img.grayscale:hover {
+    ter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    .transition(@duration:1s, @ease:ease);
+    /* where property is the property affected, in this case "all" */
+    /* duration is the length of the transition, in this case "2.0s" */
+    /* function is the shape of the transition, in this case "linear" */
+	}
+			
+		
+	}
+
+
+
+
+}

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Concerto Barroco"
+category: livros
+image: 2013-ant-concerto.jpg
+---
+
+- 13 x 21 cm
+- Antígona
+- 2013
+

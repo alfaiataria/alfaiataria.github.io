@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Regresso ao admirável mundo novo"
+category: livros
+image: 2014-ant-regresso.jpg
+---
+
+- 13 x 21 cm
+- Antígona
+- 2014
+

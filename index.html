@@ -1,13 +1,48 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: alfaiataria
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+<ul id="filter" class="option-set top-menu clearfix" data-option-key="filter" >
+        <li><a href="#show-all" class="filter" data-option-value="all" class="selected">todos | all</a></li>
+        <li><a href="#livros" class="filter" data-option-value="livros">livros | books</a></li>
+        <li><a href="#cartazes" class="filter" data-option-value="cartazes">cartazes | posters</a></li>
+  </ul>
+
+<div class="clearfix"></div>
+  <ul id="container" class="posts clearfix">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li class="element {{ post.category }} " >
+        <a href="{{ post.url }}">
+        <div class="inside-info">
+        <h5>{{ post.title }}</h5> — {{ post.content }}
+        </div>
+          
+        <img src="/assets/images/{{ post.image }}" class="img-responsive">
+        
+      </a>
+      </li>
     {% endfor %}
   </ul>
 </div>
+
+  <script>
+          $(document).ready(function() {
+        $('#container').isotope();
+        
+        $('a.filter').click(function(e) {
+              e.preventDefault();
+          var to_filter = $(this).attr('data-option-value');
+          if(to_filter == 'all') {
+                  $('#container').isotope({filter: '.element'});
+          } else {
+                  $('#container').isotope({filter: '.'+ to_filter});
+          }
+          
+        });
+      });
+
+
+      
+  </script>
+  </section> <!-- #content -->
