@@ -3,6 +3,8 @@ layout: post
 title:  "Francis Bacon"
 category: livros
 image: 2011-on-bacon.jpg
+tags:
+- Orfeu Negro
 ---
 
 - 12,2 x 18 cm

@@ -3,6 +3,8 @@ layout: post
 title:  "Negócio dos Livros"
 category: livros
 image: 2013-ll-negocio.jpg
+tags:
+- Letra Livre
 ---
 
 - 14 x 21 cm

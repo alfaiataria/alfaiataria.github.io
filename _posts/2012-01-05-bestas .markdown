@@ -3,6 +3,8 @@ layout: post
 title:  "Bestas de Lugar Nenhum"
 category: livros
 image: 2011-ant-bestas.jpg
+tags:
+- Antígona
 ---
 
 - 13 x 21 cm

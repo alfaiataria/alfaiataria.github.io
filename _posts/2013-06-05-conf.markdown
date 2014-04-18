@@ -3,6 +3,8 @@ layout: post
 title:  "Conferências de Lisboa"
 category: livros
 image: 2013-ant-conferencias.jpg
+tags:
+- Antígona
 ---
 
 - 13 x 21 cm

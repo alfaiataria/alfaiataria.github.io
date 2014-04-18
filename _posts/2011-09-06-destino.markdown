@@ -3,6 +3,8 @@ layout: post
 title:  "Destino das Imagens"
 category: livros
 image: 2011-on-destino.jpg
+tags:
+- Orfeu Negro
 ---
 
 - 12,3 x 18 cm
