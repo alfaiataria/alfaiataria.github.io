@@ -2,15 +2,15 @@
 layout: default
 ---
 <div class="post row">
-	<div class="col-lg-5 post-img">
+	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-8 post-img">
 		<img src="/assets/images/{{ page.image }}" class="img-responsive"></div>
-	<div class="col-lg-2 ">
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
 		<div class="post-info">
-		<h2>{{ page.title }}</h2>
+		<h5>{{ page.title }}</h5 >
 		{{ content }}
 		</div>
 	</div>
-	<div class="col-lg-offset-1 col-lg-4 post-links">
+	<div class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-sm-offset-1 col-md-4 col-sm-4 col-xs-12 col-xs-offset-0 post-links">
 	<ul id="filter" class="option-set top-menu clearfix" data-option-key="filter" >
         <li><a href="#show-all" class="filter" data-option-value="all" class="selected">todos | all</a></li>
         <li><a href="#livros" class="filter" data-option-value="livros">livros | books</a></li>

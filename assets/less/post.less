@@ -16,7 +16,8 @@
 	letter-spacing: 1px;
 	
 
-	h2 {
+	h5 {
+	font-size: 13px;
 	text-align:left;
 	font-weight: 700;
 
@@ -26,25 +27,46 @@
 }
 
 .post-links {
+	
 
 	border-left: solid 1px rgb(240,240,240,);
+	@media  (max-width: @screen-xs-max) {
+					margin-top: 40px;
+					border-top: solid 1px rgb(240,240,240,);
+					border-left: solid 0px rgb(240,240,240,);
+			}
 
 
 	.inside-post {
 		margin-left: 40px;
+		@media  (max-width: @screen-xs-max) {
+					margin-left: 0px;
+			}
+
 	}
 
 	ul.top-menu {
-		margin-top: 14px;
-		margin-bottom: 10px;
-		margin-left: 40px;
-		line-height: 16px;
-	}
+				margin-top: 14px;
+				@media  (max-width: @screen-xs-max) {
+							margin-top: 30px;
+							margin-bottom: 30px;
+					}
 
-	ul.top-menu li{
+				margin-bottom: 10px;
+				margin-left: 40px;
+				@media  (max-width: @screen-xs-max) {
+							margin-left: 0px;
+					}
+				line-height: 16px;
+		}
+
+	ul.top-menu li{ 
 		float: none;
 		text-align: left;
 		margin: 0px 20px 0px 0px;
+		@media  (max-width: @screen-xs-max) {
+							margin-bottom: 5px;
+					}
 	}
 
 	.element {
