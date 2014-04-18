@@ -5957,7 +5957,7 @@ ul.main-menu {
 }
 .element a .inside-info {
   z-index: -1;
-  position: relative;
+  position: absolute;
   visibility: hidden;
   color: #FFF;
   padding: 0px;
