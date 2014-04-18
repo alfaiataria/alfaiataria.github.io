@@ -8,9 +8,8 @@
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/assets/css/syntax.css">
-        <link rel="stylesheet"  href="/assets/css/bootstrap.css"/>
+        
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/assets/css/main.css">
         <link rel="stylesheet"  href="/assets/css/estilinhos.css"/>
 
 
@@ -28,30 +27,34 @@
       <div class="container">
 
 
-          <div class="header">
-            <h1 class="title"><a href="/index.html">{{ site.name }}</a></h1>
+          <div class="row header">
+            <div class="col-lg-10">
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <ul class="main-menu">
-              <li><a class="extra" href="/index.html">isotope 0.1</a></li>
+              <li><a class="extra" href="/index.html">isotope :h</a></li>
             </ul>
+            </div>
+            <div class="col-lg-2 contact">
+              <a href="mailto:ruisilva@alfaiataria.org">ruisilva@alfaiataria.org</a>
+            </div>
           </div>
+
           <div class="clearfix"></div>
 
           {{ content }}
+          
+          <div class="clearfix"></div>
+          
+          
+          <div class="row footer">
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
+            
+              {% include footer.html %}
+
+            
+            
+          </div>
+          
           </div>
         </div>
 

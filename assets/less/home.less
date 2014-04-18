@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Raleway';
+  font-size: 12px;
 }
 
 a, ul, h1, h2, h3, h4, h5, h6, p {
@@ -10,12 +11,46 @@ a, ul, h1, h2, h3, h4, h5, h6, p {
 
 a {
   .transition(@duration:0.2s, @ease:ease);
+  color:#666;
+  font-weight: 500;
 }
 
-ul {list-style-type: none;}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;}
+
+.header {
+  border-bottom-color: rgb(220, 220, 220);
+border-bottom-style: dotted;
+border-bottom-width: 1px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.footer {
+    border-top-color: rgb(220, 220, 220);
+    border-top-style: dotted;
+    border-top-width: 1px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color: #666;
+    font-size: 10px;
+    margin-top: 40px;
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .cv-year li{
+      margin-bottom: 5px;
+    }
+
+    li.cv-list-year {padding-top: 5px;}
+}
 
 h1.title {
-  margin: 20px 10px 0px 0px;
+  margin: -17px 0px 0px 0px;
   display: block;
   text-align: left;
   float: left;
@@ -23,11 +58,10 @@ h1.title {
 
 .title {
     a {
-    color:rgb(0, 0,0);
+    color:rgb(0,0,0);
     font-size: 14.5px;
     font-family: 'Raleway';
     font-weight: 700;
-    line-height: 18px;
     }
 
     a:hover {
@@ -48,10 +82,10 @@ h1.title {
 
 
 ul.top-menu, ul.main-menu {
-  margin: auto;
+  margin: 0px;
+  padding: 0px;
   display: block;
   float: left;
-  margin-top: 40px;
   line-height: 20px; 
   
   a {text-transform: uppercase;
@@ -64,13 +98,21 @@ ul.top-menu, ul.main-menu {
   a:hover {
     color: rgba(75,20,75,1);
   }
-
-
-
 }
 
-ul.main-menu {
- margin-top: 37px;
+ ul.main-menu li {
+  margin-left: 20px;
+ }
+
+ul.top-menu {
+  margin-top: 40px;
+}
+
+.contact {
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 1px;
+
 }
 
 .image-list {margin-top: 40px;}
@@ -127,12 +169,12 @@ ul.main-menu {
 }
 
 .element.livros {
-  width: 207px;
+  width: 206px;
   z-index: 10;
 }
 
 .element.cartazes {
-  width: 434px;
+  width: 432px;
   z-index: 10;
 }
 
