@@ -6113,7 +6113,7 @@ ul.top-menu {
   font-weight: 700;
 }
 .post-links {
-  border-left: solid 1px #f0f0f0;
+  border-left: dotted 1px #dcdcdc;
 }
 @media (max-width: 767px) {
   .post-links {
