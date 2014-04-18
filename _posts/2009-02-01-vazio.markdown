@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Espaço Vazio"
+category: livros
+image: 2011-on-vazio.jpg
+---
+
+- 12,2 x 18 cm
+- Orfeu Negro
+- 2009
+

@@ -1,9 +1,52 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="post row">
+	<div class="col-lg-4 post-img">
+		<img src="/assets/images/{{ page.image }}" class="img-responsive"></div>
+	<div class="col-lg-2 ">
+		<div class="post-info">
+		<h2>{{ page.title }}</h2>
+		{{ content }}
+		</div>
+	</div>
+	<div class="col-lg-offset-1 col-lg-5 post-links">
+	<ul id="filter" class="option-set top-menu clearfix" data-option-key="filter" >
+        <li><a href="#show-all" class="filter" data-option-value="all" class="selected">todos | all</a></li>
+        <li><a href="#livros" class="filter" data-option-value="livros">livros | books</a></li>
+        <li><a href="#cartazes" class="filter" data-option-value="cartazes">cartazes | posters</a></li>
+  </ul>
+  <div class="clearfix"></div>
+  		 <ul id="container" class="inside-post clearfix">
+    {% for post in site.posts %}
+      <li class="element {{ post.category }} " >
+        <a href="{{ post.url }}">  
 
-<div class="post">
-{{ content }}
+        <img src="/assets/images/{{ post.image }}" class="img-responsive grayscale">
+        
+      </a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
+
+  <script>
+          $(document).ready(function() {
+        $('#container').isotope();
+        
+        $('a.filter').click(function(e) {
+              e.preventDefault();
+          var to_filter = $(this).attr('data-option-value');
+          if(to_filter == 'all') {
+                  $('#container').isotope({filter: '.element'});
+          } else {
+                  $('#container').isotope({filter: '.'+ to_filter});
+          }
+          
+        });
+      });
+
+
+      
+  </script>
+  </section> <!-- #content -->

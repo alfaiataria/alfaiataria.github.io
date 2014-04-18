@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "40 Histórias"
+category: livros
+image: 2013-ant-40.jpg
+---
+
+- 13 x 21 cm
+- Antígona
+- 2013
+

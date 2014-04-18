@@ -1,0 +1,176 @@
+
+
+body {
+  font-family: 'Raleway';
+}
+
+a, ul, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Raleway';
+}
+
+a {
+  .transition(@duration:0.2s, @ease:ease);
+}
+
+ul {list-style-type: none;}
+
+h1.title {
+  margin: 20px 10px 0px 0px;
+  display: block;
+  text-align: left;
+  float: left;
+  }
+
+.title {
+    a {
+    color:rgb(0, 0,0);
+    font-size: 14.5px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 18px;
+    }
+
+    a:hover {
+      color:rgb(135,135,135);
+    }
+
+    a .light {
+      font-weight: 500;
+      font-size: 10px;
+      font-family: 'Raleway';
+      color: #666;
+          text-transform: uppercase;
+              letter-spacing: 1px;
+
+
+    }
+}
+
+
+ul.top-menu, ul.main-menu {
+  margin: auto;
+  display: block;
+  float: left;
+  margin-top: 20px;
+  line-height: 20px; 
+  
+  a {text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #666;
+      font-size: 10px;
+      font-weight: 500;
+    .transition(@duration:0.2s, @ease:ease);}
+
+  a:hover {
+    color: rgba(75,20,75,1);
+    
+  }
+
+}
+
+
+.element {
+  float: left;
+  text-align: left;
+  margin:10px 20px 10px 0px;
+  .drop-shadow(@x-axis: 0, @y-axis: 1px, @blur: 5px, @alpha: 0.2);
+
+  a {
+    width: inherit;
+  }
+
+  a .inside-info {
+    z-index: -1;
+    position: absolute;
+    color: #FFF;
+    padding: 10px;
+    line-height: 18px;
+    background: rgba(110, 55, 115, 0.10);
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    font-size: 12px;
+    .transition(@duration:0.5s, @ease:ease);
+
+    h5 {
+      margin-top: 5px;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 16px;
+      letter-spacing: 1px;
+      margin-bottom: 5px;
+    }
+
+    li {
+      line-height: 18px;
+    } 
+  }
+
+  a:hover .inside-info {
+  z-index: 1;
+  background: rgba(110, 55, 115, 0.75);
+  }
+
+
+}
+
+.element.livros {
+  width: 207px;
+  z-index: 10;
+}
+
+.element.cartazes {
+  width: 434px;
+  z-index: 10;
+}
+
+.element:hover {
+  cursor: pointer;
+}
+
+.option-set {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+
+        li {
+          float: left;
+          margin:10px 20px 10px 0px;
+        }
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Lacrimae Rerum"
+category: livros
+image: 2013-on-lacrimae.jpg
+---
+
+- 12,2 x 18 cm
+- Orfeu Negro
+- 2013
+
