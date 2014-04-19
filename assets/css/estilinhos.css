@@ -5873,6 +5873,99 @@ button.close {
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* ---- isotope ---- */
+.isotope {
+  max-width: 800px;
+}
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* ---- .item ---- */
+.item {
+  float: left;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 0px 0px 10px 0px;
+  -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+}
+.item.livros {
+  width: 190px;
+}
+.item.cartazes {
+  width: 390px;
+}
+.item:hover {
+  background: #8CF;
+  cursor: pointer;
+}
+.item.livros.gigante {
+  width: 390px;
+  height: 630px;
+}
+.item.cartazes.gigante {
+  width: 680px;
+  height: 950px;
+}
+#notification {
+  position: fixed;
+  opacity: 0;
+  color: white;
+  font-size: 16px;
+  padding: 0.5em;
+  right: 0;
+  top: 0;
+}
+.item {
+  text-align: left;
+}
+.item .sobre .inside-info {
+  z-index: -1;
+  position: absolute;
+  visibility: hidden;
+  color: #FFF;
+  padding: 0px;
+  line-height: 18px;
+  background: rgba(110, 55, 115, 0.1);
+  width: 0px;
+  top: 0px;
+  height: 0px;
+  overflow: hidden;
+  font-size: 12px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.item .sobre .inside-info h5 {
+  margin-top: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.item .sobre .inside-info li {
+  line-height: 18px;
+}
+.item .sobre:hover .inside-info {
+  position: absolute;
+  z-index: 1;
+  background: rgba(110, 55, 115, 0.75);
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  padding: 10px;
+}
 body {
   font-family: 'Raleway';
   font-size: 12px;
@@ -5982,6 +6075,7 @@ ul.main-menu a:hover {
 }
 ul.main-menu li {
   margin-left: 20px;
+  float: left;
 }
 ul.top-menu {
   margin-top: 40px;
@@ -5990,6 +6084,7 @@ ul.top-menu {
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 1px;
+  text-align: right;
 }
 .image-list {
   margin-top: 40px;
