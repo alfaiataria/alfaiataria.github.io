@@ -22,6 +22,7 @@
     /* function is the shape of the transition, in this case "linear" */
   }
 
+
   a:hover img.grayscale {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -29,7 +30,11 @@
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     -webkit-transform: translateZ(0); /* this is the magic line! */
-    .opacity(@opacity: 0.75) ;
+    .opacity(@opacity: 0.65) ;
+  }
+
+  a:hover  {
+    .opacity(@opacity: 0.65) ;
   }
 
 }
