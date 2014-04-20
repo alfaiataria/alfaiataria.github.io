@@ -6064,6 +6064,35 @@ ul.top-menu {
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
+.element a img.grayscale {
+  ter: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -o-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  /* where property is the property affected, in this case "all" */
+  /* duration is the length of the transition, in this case "2.0s" */
+  /* function is the shape of the transition, in this case "linear" */
+}
+.element a:hover img.grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -webkit-transform: translateZ(0);
+  /* this is the magic line! */
+  -moz-opacity: 0.75;
+  -khtml-opacity: 0.75;
+  -webkit-opacity: 0.75;
+  opacity: 0.75;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+  filter: alpha(opacity=75);
+}
 .element.livros {
   width: 190px;
   z-index: 10;
