@@ -8,6 +8,30 @@
   margin:0px 10px 10px 0px;
   .drop-shadow(@x-axis: 0, @y-axis: 1px, @blur: 5px, @alpha: 0.2);
 
+
+
+  a img.grayscale {
+    ter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    .transition(@duration:0.75s, @ease:ease);
+    /* where property is the property affected, in this case "all" */
+    /* duration is the length of the transition, in this case "2.0s" */
+    /* function is the shape of the transition, in this case "linear" */
+  }
+
+  a:hover img.grayscale {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -webkit-transform: translateZ(0); /* this is the magic line! */
+    .opacity(@opacity: 0.75) ;
+  }
+
 }
 
  .element.livros {
