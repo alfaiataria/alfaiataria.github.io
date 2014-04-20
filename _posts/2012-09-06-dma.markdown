@@ -5,6 +5,7 @@ category: cartazes
 image: 2012-oa-dma.jpg
 tags:
 - Ordem dos Arquitectos
+ano: 2012
 ---
 
 - 50 x 70 cm

@@ -5,6 +5,8 @@ category: livros
 image: 2013-on-ensaiosf.png
 tags:
 - Orfeu Negro
+- grande
+ano: 2013
 ---
 
 - 17 x 21 cm

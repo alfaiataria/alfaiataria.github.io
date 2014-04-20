@@ -1,0 +1,49 @@
+ul.top-menu, ul.main-menu {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  float: left;
+  line-height: 20px; 
+  
+  a {text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #666;
+      font-size: 10px;
+      font-weight: 500;
+    .transition(@duration:0.2s, @ease:ease);}
+
+
+
+  a:hover {
+    color: rgba(75,20,75,1);
+  }
+}
+
+ ul.main-menu li {
+  margin-left: 20px;
+  float: left;
+ }
+
+ul.top-menu {
+  margin-top: 40px;
+}
+
+.option-set {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+
+        li {
+          margin:0px 20px 10px 0px;
+          line-height: 14px;
+        }
+
+        li.number a {
+          font-size: 11px;
+        }
+
+        li a.selected {
+          color: #C36CCA;
+          text-decoration: underline;
+        }
+}

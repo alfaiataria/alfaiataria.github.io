@@ -5,6 +5,8 @@ category: cartazes
 image: 2011-oa-cidade.png
 tags:
 - Ordem dos Arquitectos
+- fora
+ano: 2011
 ---
 
 - 25 x 70 cm

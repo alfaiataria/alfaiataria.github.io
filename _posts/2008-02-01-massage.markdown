@@ -5,6 +5,7 @@ category: cartazes
 image: 2008-cc-massage.png
 tags:
 - Canal Caveira
+ano: 2008
 ---
 
 - 32 x 45 cm
