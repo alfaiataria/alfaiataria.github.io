@@ -29,41 +29,36 @@ title: alfaiataria
     </div>
 
     <div class="col-lg-10 image-list">
-      <ul class="isotope" class="posts clearfix">
+      <ul id="container" class="posts clearfix">
         {% for post in site.posts %}
-          <li class="item {{ post.category }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }}" >
-            <div class="sobre">
-                 
-            <img src="/assets/images/{{ post.image }}" class="img-responsive">
-            <div class="inside-info">
-              <h5>{{ post.title }}</h5> — {{ post.content }}
-            </div>
-
-          </div>
+          <li class="element {{ post.category }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }} " >
+            <a href="{{ post.url }}">
+                    
+            <img src="/assets/images/{{ post.image }}" class="img-responsive grayscale">
             
+            </a>
           </li>
         {% endfor %}
       </ul>
-      <div id="notification"></div>
     </div>
 </div>
   <script>
-          $(document).ready(function() {
-        $('.isotope').isotope();
+          $('#container').imagesLoaded(function() {
+        $('#container').isotope();
         
         $('a.filter').click(function(e) {
               e.preventDefault();
           var to_filter = $(this).attr('data-option-value');
           if(to_filter == 'all') {
-                  $('.isotope').isotope({filter: '.item'});
+                  $('#container').isotope({filter: '.element'});
           } else {
-                  $('.isotope').isotope({filter: '.'+ to_filter});
+                  $('#container').isotope({filter: '.'+ to_filter});
           }
           
         });
       });
 
-      // set selected menu items
+          // set selected menu items
    var $optionSets = $('.option-set'),
        $optionLinks = $optionSets.find('a');
  
@@ -77,6 +72,10 @@ title: alfaiataria
    $optionSet.find('.selected').removeClass('selected');
    $this.addClass('selected'); 
 });
+
+       
+
+
 
       
   </script>
