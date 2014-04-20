@@ -5873,6 +5873,53 @@ button.close {
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+ul.top-menu,
+ul.main-menu {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  float: left;
+  line-height: 20px;
+}
+ul.top-menu a,
+ul.main-menu a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  font-size: 10px;
+  font-weight: 500;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+ul.top-menu a:hover,
+ul.main-menu a:hover {
+  color: #4b144b;
+}
+ul.main-menu li {
+  margin-left: 20px;
+  float: left;
+}
+ul.top-menu {
+  margin-top: 40px;
+}
+.option-set {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.option-set li {
+  margin: 0px 20px 10px 0px;
+  line-height: 14px;
+}
+.option-set li.number a {
+  font-size: 11px;
+}
+.option-set li a.selected {
+  color: #C36CCA;
+  text-decoration: underline;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5894,9 +5941,9 @@ button.close {
   min-width: 100px;
   min-height: 100px;
   margin: 0px 0px 10px 0px;
-  -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 .item.livros {
   width: 190px;
@@ -5910,11 +5957,51 @@ button.close {
 }
 .item.livros.gigante {
   width: 390px;
+  height: 577px;
+}
+.item.livros.antigona.gigante {
+  width: 390px;
   height: 630px;
 }
+.item.livros.dafne.gigante {
+  width: 390px;
+  height: 577px;
+}
+.item.livros.queimadela.gigante {
+  width: 390px;
+  height: 524px;
+}
+.item.livros.letra.livre.gigante {
+  width: 390px;
+  height: 581px;
+}
+.item.livros.orfeu.negro.pequeno.gigante {
+  width: 390px;
+  height: 571px;
+}
+.item.livros.orfeu.negro.grande.gigante {
+  width: 390px;
+  height: 488px;
+}
 .item.cartazes.gigante {
-  width: 680px;
+  width: 590px;
   height: 950px;
+}
+.item.cartazes.ordem.gigante {
+  width: 590px;
+  height: 826px;
+}
+.item.cartazes.ordem.fora.gigante {
+  width: 590px;
+  height: 1732px;
+}
+.item.cartazes.canal.caveira.gigante {
+  width: 590px;
+  height: 830px;
+}
+.item.cartazes.canal.caveira.graforismo.gigante {
+  width: 590px;
+  height: 808px;
 }
 #notification {
   position: fixed;
@@ -5966,6 +6053,58 @@ button.close {
   visibility: visible;
   padding: 10px;
 }
+#container {
+  max-width: 800px;
+}
+.element {
+  float: left;
+  text-align: left;
+  margin: 10px 10px 10px 0px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+.element.livros {
+  width: 190px;
+  z-index: 10;
+}
+.element.cartazes {
+  width: 390px;
+  z-index: 10;
+}
+.element:hover {
+  cursor: pointer;
+}
+.isotope-item {
+  z-index: 2;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: top, left, opacity;
+  transition-property: transform, opacity;
+}
 body {
   font-family: 'Raleway';
   font-size: 12px;
@@ -6006,6 +6145,10 @@ ul {
 }
 .header a:hover {
   color: #4b144b;
+}
+.ding-ding {
+  font-size: 200%;
+  line-height: -1px;
 }
 .footer {
   border-top-color: #dcdcdc;
@@ -6049,37 +6192,6 @@ h1.title {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-ul.top-menu,
-ul.main-menu {
-  margin: 0px;
-  padding: 0px;
-  display: block;
-  float: left;
-  line-height: 20px;
-}
-ul.top-menu a,
-ul.main-menu a {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #666;
-  font-size: 10px;
-  font-weight: 500;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-ul.top-menu a:hover,
-ul.main-menu a:hover {
-  color: #4b144b;
-}
-ul.main-menu li {
-  margin-left: 20px;
-  float: left;
-}
-ul.top-menu {
-  margin-top: 40px;
-}
 .contact {
   font-size: 12px;
   line-height: 22px;
@@ -6089,15 +6201,7 @@ ul.top-menu {
 .image-list {
   margin-top: 40px;
 }
-.element {
-  float: left;
-  text-align: left;
-  margin: 10px 20px 10px 0px;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-}
-.element a .inside-info {
+a .inside-info {
   z-index: -1;
   position: absolute;
   visibility: hidden;
@@ -6115,7 +6219,7 @@ ul.top-menu {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.element a .inside-info h5 {
+a .inside-info h5 {
   margin-top: 5px;
   font-weight: bold;
   text-transform: uppercase;
@@ -6123,10 +6227,10 @@ ul.top-menu {
   letter-spacing: 1px;
   margin-bottom: 5px;
 }
-.element a .inside-info li {
+a .inside-info li {
   line-height: 18px;
 }
-.element a:hover .inside-info {
+a:hover .inside-info {
   position: absolute;
   z-index: 1;
   background: rgba(110, 55, 115, 0.75);
@@ -6134,56 +6238,6 @@ ul.top-menu {
   height: 100%;
   visibility: visible;
   padding: 10px;
-}
-.element.livros {
-  width: 206px;
-  z-index: 10;
-}
-.element.cartazes {
-  width: 432px;
-  z-index: 10;
-}
-.element:hover {
-  cursor: pointer;
-}
-.option-set {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
-.option-set li {
-  float: left;
-  margin: 0px 20px 0px 0px;
-}
-.isotope-item {
-  z-index: 2;
-}
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-/**** Isotope CSS3 transitions ****/
-.isotope,
-.isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
-  -ms-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-}
-.isotope {
-  -webkit-transition-property: height, width;
-  -moz-transition-property: height, width;
-  -ms-transition-property: height, width;
-  -o-transition-property: height, width;
-  transition-property: height, width;
-}
-.isotope .isotope-item {
-  -webkit-transition-property: -webkit-transform, opacity;
-  -moz-transition-property: -moz-transform, opacity;
-  -ms-transition-property: -ms-transform, opacity;
-  -o-transition-property: top, left, opacity;
-  transition-property: transform, opacity;
 }
 .post {
   margin-top: 40px;
@@ -6213,75 +6267,43 @@ ul.top-menu {
   text-align: left;
   font-weight: 700;
 }
-.post-links {
-  border-left: dotted 1px #dcdcdc;
-}
-@media (max-width: 767px) {
-  .post-links {
-    margin-top: 40px;
-    border-top: solid 1px #f0f0f0;
-    border-left: solid 0px #f0f0f0;
-  }
-}
-.post-links .inside-post {
-  margin-left: 40px;
-}
-@media (max-width: 767px) {
-  .post-links .inside-post {
-    margin-left: 0px;
-  }
-}
-.post-links ul.top-menu {
-  margin-top: 14px;
+.post-links li {
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #dcdcdc;
   margin-bottom: 10px;
-  margin-left: 40px;
-  line-height: 16px;
+  font-size: 10px;
+  letter-spacing: 1px;
 }
-@media (max-width: 767px) {
-  .post-links ul.top-menu {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
+.post-links li.topo {
+  border-bottom: 0px dotted #dcdcdc;
+  margin-bottom: 20px;
+  line-height: 10px;
 }
-@media (max-width: 767px) {
-  .post-links ul.top-menu {
-    margin-left: 0px;
-  }
+.post-links .similar {
+  margin-top: 40px;
 }
-.post-links ul.top-menu li {
-  float: none;
-  text-align: left;
-  margin: 0px 20px 0px 0px;
+.post-links .similar li.topo {
+  font-size: 200%;
+  font-weight: 200;
 }
-@media (max-width: 767px) {
-  .post-links ul.top-menu li {
-    margin-bottom: 5px;
-  }
-}
-.post-links .element {
-  width: 90px;
-  margin: 5px 10px 5px 0px;
-}
-.post-links .element img.grayscale {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  -webkit-transform: translateZ(0);
-  /* this is the magic line! */
-}
-.post-links .element img.grayscale:hover {
-  ter: none;
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-  /* where property is the property affected, in this case "all" */
-  /* duration is the length of the transition, in this case "2.0s" */
-  /* function is the shape of the transition, in this case "linear" */
-}
+/* img.grayscale {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -webkit-transform: translateZ(0); /* this is the magic line! 
+	}
+
+	img.grayscale:hover {
+    ter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    .transition(@duration:1s, @ease:ease);
+    /* where property is the property affected, in this case "all" */
+/* duration is the length of the transition, in this case "2.0s" */
+/* function is the shape of the transition, in this case "linear" 
+	}*/

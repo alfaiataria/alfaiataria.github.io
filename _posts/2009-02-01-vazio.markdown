@@ -5,6 +5,8 @@ category: livros
 image: 2011-on-vazio.jpg
 tags:
 - Orfeu Negro
+- pequeno
+ano: 2009
 ---
 
 - 12,2 x 18 cm

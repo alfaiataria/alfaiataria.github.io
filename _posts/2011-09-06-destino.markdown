@@ -5,6 +5,8 @@ category: livros
 image: 2011-on-destino.jpg
 tags:
 - Orfeu Negro
+- pequeno
+ano: 2011
 ---
 
 - 12,3 x 18 cm

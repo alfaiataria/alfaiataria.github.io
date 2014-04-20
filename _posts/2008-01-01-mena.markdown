@@ -2,9 +2,10 @@
 layout: post
 title:  "Momma Mena"
 category: cartazes
-image: 2008-cc-mena.png
+image: 2008-cc-mena.jpg
 tags:
 - Canal Caveira
+ano: 2008
 ---
 
 - 32 x 45 cm

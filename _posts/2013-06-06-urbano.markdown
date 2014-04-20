@@ -2,9 +2,10 @@
 layout: post
 title:  "Urbano"
 category: cartazes
-image: 2013-cc-urbano.jpg
+image: 2013-cc-urbano.png
 tags:
 - Canal Caveira
+ano: 2013
 ---
 
 - 32 x 45 cm

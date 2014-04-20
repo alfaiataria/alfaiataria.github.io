@@ -5,6 +5,7 @@ category: livros
 image: 2011-ant-bestas.jpg
 tags:
 - Antígona
+ano: 2012
 ---
 
 - 13 x 21 cm

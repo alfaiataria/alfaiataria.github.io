@@ -5,6 +5,7 @@ category: cartazes
 image: 2011-cc-greve.jpg
 tags:
 - Canal Caveira
+ano: 2011
 ---
 
 - 32 x 45 cm

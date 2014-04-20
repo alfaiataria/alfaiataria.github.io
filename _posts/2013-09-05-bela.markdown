@@ -5,6 +5,8 @@ category: livros
 image: 2013-on-belatarr.jpg
 tags:
 - Orfeu Negro
+- pequeno
+ano: 2013
 ---
 
 - 12,2 x 18 cm
