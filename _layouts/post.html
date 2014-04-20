@@ -16,7 +16,7 @@ layout: default
   		 <ul  class="inside-post">
         <li class="topo"> <br/><strong>{{ page.tags[0] }}</strong></li>
     {% for post in site.posts %}
-        {% if post.tags[0] == page.tags[0] %}
+        {% if post.tags[0] == page.tags[0] and post.title != page.title %}
                 <li><a href="{{ post.url }}"><strong>{{ post.title }}</strong> | {{ post.ano }}</a></li>
             {% endif %}
         {% endfor %}
