@@ -6059,7 +6059,7 @@ ul.top-menu {
 .element {
   float: left;
   text-align: left;
-  margin: 10px 10px 10px 0px;
+  margin: 0px 10px 10px 0px;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
