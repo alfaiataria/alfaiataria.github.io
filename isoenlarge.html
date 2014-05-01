@@ -4,11 +4,12 @@ title: alfaiataria
 ---
 
   <div class="row">
-    <div class="col-lg-2">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
         <ul id="filter" class="option-set top-menu clearfix" data-option-key="filter" >
               <li><a href="#show-all" class="filter" data-option-value="all" class="selected">todos | all</a></li>
               <li><a href="#livros" class="filter" data-option-value="livros">livros | books</a></li>
               <li><a href="#cartazes" class="filter" data-option-value="cartazes">cartazes | posters</a></li>
+              <li><a href="#postal" class="filter" data-option-value="postal">postais | flyers</a></li>
               <li> — </li>
               <li><a href="#antigona" class="filter" data-option-value="antigona">antígona</a></li>
               <li><a href="#caveira" class="filter" data-option-value="caveira">canal caveira</a></li>
@@ -28,7 +29,7 @@ title: alfaiataria
         </ul>
     </div>
 
-    <div class="col-lg-10 image-list">
+    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8 image-list">
       <ul class="isotope" class="posts clearfix">
         {% for post in site.posts %}
           <li class="item {{ post.category }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }}" >
@@ -44,7 +45,6 @@ title: alfaiataria
           </li>
         {% endfor %}
       </ul>
-      <div id="notification"></div>
     </div>
 </div>
   <script>
