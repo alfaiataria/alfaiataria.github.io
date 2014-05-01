@@ -3,3 +3,6 @@ markdown: redcarpet
 pygments: true
 
 permalink: /:categories/:year/:title.html
+
+gems:
+  - jekyll-sitemap
