@@ -6245,9 +6245,42 @@ ul.top-menu {
   width: 190px;
   z-index: 10;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .element.livros,
+  .element.postal {
+    width: 184px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .element.livros,
+  .element.postal {
+    width: 138px;
+  }
+}
+@media (max-width: 767px) {
+  .element.livros,
+  .element.postal {
+    width: 200px;
+  }
+}
 .element.cartazes {
   width: 390px;
   z-index: 10;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .element.cartazes {
+    width: 378px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .element.cartazes {
+    width: 286px;
+  }
+}
+@media (max-width: 767px) {
+  .element.cartazes {
+    width: 200px;
+  }
 }
 .element:hover {
   cursor: pointer;
