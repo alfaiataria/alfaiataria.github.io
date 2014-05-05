@@ -11,7 +11,7 @@ title: alfaiataria
     <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8 image-list">
       <ul id="container" class="posts clearfix">
         {% for post in site.posts %}
-          <li class="element {{ post.category }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }} " >
+          <li class="element {{ post.category }} {{ posts.first }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }} " >
             <a href="{{ post.url }}">
                     
             <img src="/assets/images/{{ post.image }}" class="img-responsive grayscale">
@@ -54,7 +54,7 @@ title: alfaiataria
    $this.addClass('selected'); 
 });
 
-       
+
 
 
 
