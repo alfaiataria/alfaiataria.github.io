@@ -2,7 +2,7 @@
 layout: post
 title:  "Dominaçao e a Arte da Resistência"
 category: livros
-image: 2013-ll-scott.png
+image: 2013-ll-scott.jpg
 tags:
 - Letra Livre
 ano: 2013

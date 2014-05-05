@@ -6014,6 +6014,7 @@ ul.main-menu {
   display: block;
   float: left;
   line-height: 20px;
+  font-size: 10px;
 }
 ul.top-menu a,
 ul.main-menu a {
@@ -6053,6 +6054,9 @@ ul.top-menu {
 .option-set li a.selected {
   color: #C36CCA;
   text-decoration: underline;
+}
+.option-set li.nocaps a {
+  text-transform: none;
 }
 * {
   -webkit-box-sizing: border-box;
