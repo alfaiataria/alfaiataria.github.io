@@ -10,6 +10,8 @@ title: alfaiataria
 
     <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8 image-list">
       <ul id="container" class="posts clearfix">
+        
+
         {% for post in site.posts %}
           <li class="element {{ post.category }} {{ posts.first }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }} " >
             <a href="{{ post.url }}">
@@ -25,7 +27,10 @@ title: alfaiataria
 </div>
   <script>
           $('#container').imagesLoaded(function() {
-        $('#container').isotope();
+        $('#container').isotope({ 
+            itemSelector : '.element' 
+           
+      });
         
         $('a.filter').click(function(e) {
               e.preventDefault();
