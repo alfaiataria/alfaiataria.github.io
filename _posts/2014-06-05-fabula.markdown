@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "A Fábula Cinematográfica"
+category: livros
+image: 2014-on-fabula.jpg
+tags:
+- Orfeu Negro
+- pequeno
+ano: 2014
+---
+
+- 12,2 x 18 cm
+- Orfeu Negro
+- 2014
+
