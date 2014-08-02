@@ -13,6 +13,7 @@ title: alfaiataria
         
 
         {% for post in site.posts %}
+        {% if post.category != 'blog' %}
           <li class="element {{ post.category }} {{ posts.first }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }} " >
             <a href="{{ post.url }}">
                     
@@ -21,6 +22,7 @@ title: alfaiataria
             
             </a>
           </li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
