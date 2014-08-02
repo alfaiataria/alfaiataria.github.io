@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "v de vitória"
+category: blog
+image: tavira-12.jpg
+tags:
+- blog
+ano: 2014
+---
+
+
+

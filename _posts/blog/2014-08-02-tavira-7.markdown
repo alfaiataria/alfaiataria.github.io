@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "falência"
+category: blog
+image: tavira-7.jpg
+tags:
+- blog
+ano: 2014
+---
+
+
+

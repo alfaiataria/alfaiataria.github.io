@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "retrato"
+category: blog
+image: tavira-6.jpg
+tags:
+- blog
+ano: 2014
+---
+
+
+

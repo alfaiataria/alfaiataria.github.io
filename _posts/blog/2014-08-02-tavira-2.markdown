@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "um só"
+category: blog
+image: tavira-2.jpg
+tags:
+- blog
+ano: 2014
+---
+
+
+

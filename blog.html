@@ -1,0 +1,29 @@
+---
+layout: default
+title: alfaiataria
+---
+
+  <div class="row">
+    
+
+    <div class="col-lg-10 col-lg-offset-2  col-md-10 col-sm-12 col-xs-12 image-list">
+      <ul id="container" class="clearfix">
+        
+
+        {% for post in site.posts %}
+        {% if post.category == 'blog' %}
+          <li class=" blog" >
+           
+                    
+            <img src="/assets/images/blog/{{ post.image }}" class="img-responsive">
+             <h6> <strong>{{ post.title }}</strong>  </h6> <h6 class="right">{{ post.ano }} </h6>
+
+           
+            
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
+ 
