@@ -11,6 +11,7 @@ title: alfaiataria
     <div class="col-lg-10 image-list">
       <ul class="chronos" class="posts clearfix">
         {% for post in site.posts %}
+          {% if post.category != 'blog' %}
           <li class="unidade {{ post.category }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }}" >   
             <a href="{{ post.url }}">            
             <h6>{{ post.ano }}</h6>
@@ -18,6 +19,7 @@ title: alfaiataria
 
           </a>
           </li>
+           {% endif %}
         {% endfor %}
       </ul>
       <div id="notification"></div>
