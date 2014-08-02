@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "entre outras coisas"
+category: blog
+image: tavira-3.jpg
+tags:
+- blog
+ano: 2014
+---
+
+
+

@@ -6432,3 +6432,16 @@ ul.top-menu {
 /* duration is the length of the transition, in this case "2.0s" */
 /* function is the shape of the transition, in this case "linear" 
 	}*/
+.blog h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 8.5px;
+  margin-bottom: 20px;
+  float: left;
+}
+.blog h6 strong {
+  font-size: 8.5px;
+}
+.blog h6.right {
+  float: right;
+}
