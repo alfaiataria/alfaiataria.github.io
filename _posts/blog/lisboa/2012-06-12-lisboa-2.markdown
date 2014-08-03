@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "O joão, e o Pedro"
+category: blog
+image: lisboa-4.jpg
+tags:
+- Lisboa
+ano: 2012
+---
+
+
+

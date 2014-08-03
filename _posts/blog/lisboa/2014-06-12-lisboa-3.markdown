@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Eu tu e meio Bloco"
+category: blog
+image: lisboa-2.jpg
+tags:
+- Lisboa
+ano: 2014
+---
+
+
+

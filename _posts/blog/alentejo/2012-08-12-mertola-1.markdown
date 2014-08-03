@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "ágora"
+category: blog
+image: mertola-1.jpg
+tags:
+- Mértola
+ano: 2012
+---
+
+
+

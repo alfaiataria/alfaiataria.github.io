@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: photos
 title:  "manutenção"
 category: blog
 image: tavira-10.jpg
 tags:
-- blog
+- tavira
 ano: 2014
 ---
 

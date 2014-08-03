@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: photos
 title:  "v de vitória"
 category: blog
 image: tavira-12.jpg
 tags:
-- blog
+- tavira
 ano: 2014
 ---
 

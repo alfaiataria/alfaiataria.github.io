@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Dinis"
+category: blog
+image: pessoas-7.jpg
+tags:
+- Porto
+ano: 2014
+---
+
+
+

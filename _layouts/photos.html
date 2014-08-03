@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="post row">
+	<div class="col-lg-10 col-md-9 col-sm-9 col-xs-12 post-img">
+		<img src="/assets/images/blog/{{ page.image }}" class="img-responsive">
+<div class="post-info">
+
+    <h5>{{ page.title }}</h5 >
+    {{ content }}
+    <br><br><br>
+    </div>
+
+  </div>
+
+	<div class=" col-lg-2 col-md-3 col-sm-3 col-xs-12 col-xs-offset-0 post-links">
+	
+  <div class="clearfix"></div>
+  		 <ul  class="inside-post">
+        <li class="topo"> <br/><strong>{{ page.tags[0] }}</strong></li>
+    {% for post in site.posts %}
+        {% if post.tags[0] == page.tags[0] and post.title != page.title %}
+                <li><a href="{{ post.url }}"><strong>{{ post.title }}</strong> | {{ post.ano }}</a></li>
+            {% endif %}
+        {% endfor %}
+
+      </ul>
+
+      <ul class="similar">
+      <li class="topo"> <br/>+ + + </li>
+    {% for post in site.posts limit:20 offset:0 %}
+        {% if post.category == page.category and post.tags[0] != page.tags[0] %}
+                <li><a href="{{ post.url }}"><strong>{{ post.title }}</strong> | {{ post.tags[0]}} | {{ post.ano }}</a></li>
+            {% endif %}
+        {% endfor %}
+
+      </ul>
+</div>
+
+  
+  </section> <!-- #content -->

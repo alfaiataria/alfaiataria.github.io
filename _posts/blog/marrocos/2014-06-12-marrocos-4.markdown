@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Pão-Gato"
+category: blog
+image: marrocos-4.jpg
+tags:
+- Chefchaouen
+ano: 2014
+---
+
+
+

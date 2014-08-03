@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Bruno"
+category: blog
+image: pessoas-5.jpg
+tags:
+- Essaouira
+ano: 2014
+---
+
+
+

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "um só"
+title:  "eterno"
 category: blog
-image: tavira-2.jpg
+image: porto-1.jpg
 tags:
-- blog
+- porto
 ano: 2014
 ---
 

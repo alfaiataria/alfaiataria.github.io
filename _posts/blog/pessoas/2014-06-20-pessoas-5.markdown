@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Vos"
+category: blog
+image: pessoas-2.jpg
+tags:
+- Marraquexe
+ano: 2014
+---
+
+
+

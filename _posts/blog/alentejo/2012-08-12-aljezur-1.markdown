@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Meu"
+category: blog
+image: aljezur-1.jpg
+tags:
+- Aljezur
+ano: 2012
+---
+
+
+

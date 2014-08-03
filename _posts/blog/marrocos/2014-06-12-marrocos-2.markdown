@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Tiro ao Alvo?"
+category: blog
+image: marrocos-2.jpg
+tags:
+- Essaouira
+ano: 2014
+---
+
+
+

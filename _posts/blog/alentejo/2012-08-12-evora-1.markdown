@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Pentium 14%"
+category: blog
+image: evora-1.jpg
+tags:
+- Évora
+ano: 2012
+---
+
+
+
