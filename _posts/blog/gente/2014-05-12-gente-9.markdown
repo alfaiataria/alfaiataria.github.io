@@ -1,10 +1,10 @@
 ---
 layout: photos
-title:  "Vos"
+title:  "Bruno & Ben"
 category: blog
-image: pessoas-2.jpg
+image: gente-9.jpg
 tags:
-- Marraquexe
+- Porto
 ano: 2014
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: photos
-title:  "Bruno & Ben"
+title:  "Inês"
 category: blog
-image: pessoas-9.jpg
+image: gente-1.jpg
 tags:
-- Porto
+- porto
 ano: 2014
 ---
 

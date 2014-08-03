@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "JB & Emily"
+title:  "Mariana"
 category: blog
-image: pessoas-8.jpg
+image: gente-6.jpg
 tags:
 - Porto
 ano: 2014
