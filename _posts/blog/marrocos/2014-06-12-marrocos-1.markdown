@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Bar"
+category: blog
+image: marrocos-1.jpg
+tags:
+- Essaouira
+ano: 2014
+---
+
+
+

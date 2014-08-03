@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: photos
 title:  "retrato"
 category: blog
 image: tavira-6.jpg
 tags:
-- blog
+- tavira
 ano: 2014
 ---
 

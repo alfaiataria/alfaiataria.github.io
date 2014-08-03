@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "3 x 3"
+category: blog
+image: minas-1.jpg
+tags:
+- Minas de S. Domingos
+ano: 2012
+---
+
+
+

@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: photos
 title:  "bem-aventurado"
 category: blog
 image: tavira-11.jpg
 tags:
-- blog
+- tavira
 ano: 2014
 ---
 

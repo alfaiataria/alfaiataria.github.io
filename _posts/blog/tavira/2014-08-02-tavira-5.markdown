@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: photos
 title:  "a crise em 3 barcaças"
 category: blog
 image: tavira-5.jpg
 tags:
-- blog
+- tavira
 ano: 2014
 ---
 

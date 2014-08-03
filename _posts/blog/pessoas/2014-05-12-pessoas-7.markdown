@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "JB & Emily"
+category: blog
+image: pessoas-8.jpg
+tags:
+- Porto
+ano: 2014
+---
+
+
+

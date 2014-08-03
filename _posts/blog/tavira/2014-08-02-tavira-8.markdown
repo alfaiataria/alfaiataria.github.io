@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: photos
 title:  "a genuína"
 category: blog
 image: tavira-8.jpg
 tags:
-- blog
+- tavira
 ano: 2014
 ---
 

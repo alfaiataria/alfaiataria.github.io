@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Só e Mal acompanhado"
+category: blog
+image: lisboa-3.jpg
+tags:
+- Lisboa
+ano: 2012
+---
+
+
+

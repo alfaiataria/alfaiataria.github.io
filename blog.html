@@ -15,8 +15,8 @@ title: alfaiataria
           <li class=" blog" >
            
                     
-            <img src="/assets/images/blog/{{ post.image }}" class="img-responsive">
-             <h6> <strong>{{ post.title }}</strong>  </h6> <h6 class="right">{{ post.ano }} </h6>
+            <a href="{{ post.url }} "><img src="/assets/images/blog/{{ post.image }}" class="img-responsive"></a>
+             <h6> <strong>{{ post.title }}</strong>  </h6> <h6 class="right"> {{ post.tags[0] }}, {{ post.ano }} </h6>
 
            
             

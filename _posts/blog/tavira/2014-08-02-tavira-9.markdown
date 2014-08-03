@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: photos
 title:  "h"
 category: blog
 image: tavira-9.jpg
 tags:
-- blog
+- tavira
 ano: 2014
 ---
 
