@@ -1,10 +1,10 @@
 ---
 layout: photos
-title:  "Dinis"
+title:  "Bruno"
 category: blog
-image: pessoas-7.jpg
+image: gente-3.jpg
 tags:
-- Porto
+- Marraquexe
 ano: 2014
 ---
 

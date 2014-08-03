@@ -1,10 +1,10 @@
 ---
 layout: photos
-title:  "Bruno"
+title:  "JB & Emily"
 category: blog
-image: pessoas-5.jpg
+image: gente-8.jpg
 tags:
-- Essaouira
+- Porto
 ano: 2014
 ---
 

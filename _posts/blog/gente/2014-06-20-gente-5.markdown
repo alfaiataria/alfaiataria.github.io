@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "Bruno"
+title:  "Vos"
 category: blog
-image: pessoas-3.jpg
+image: gente-2.jpg
 tags:
 - Marraquexe
 ano: 2014

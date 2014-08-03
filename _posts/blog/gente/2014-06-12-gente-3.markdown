@@ -1,10 +1,10 @@
 ---
 layout: photos
-title:  "Mariana"
+title:  "Bruno"
 category: blog
-image: pessoas-6.jpg
+image: gente-5.jpg
 tags:
-- Porto
+- Essaouira
 ano: 2014
 ---
 
