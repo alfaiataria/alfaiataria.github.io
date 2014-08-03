@@ -1,6 +1,6 @@
 ---
 layout: photos
-title:  "Vos"
+title:  "pegar ou largar"
 category: blog
 image: tavira-16.jpg
 tags:
