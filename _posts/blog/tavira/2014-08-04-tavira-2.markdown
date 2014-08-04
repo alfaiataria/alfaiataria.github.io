@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "w"
+title:  "grécia ou macedónia"
 category: blog
-image: gente-11.jpg
+image: tavira-17.jpg
 tags:
 - Tavira
 ano: 2014

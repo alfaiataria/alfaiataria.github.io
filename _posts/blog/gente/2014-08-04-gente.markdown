@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "w"
+title:  "Vos"
 category: blog
-image: gente-11.jpg
+image: gente-10.jpg
 tags:
 - Tavira
 ano: 2014

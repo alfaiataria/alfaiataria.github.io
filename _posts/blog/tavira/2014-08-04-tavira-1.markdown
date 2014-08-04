@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "w"
+title:  "les enfants de la patrie"
 category: blog
-image: gente-11.jpg
+image: tavira-18.jpg
 tags:
 - Tavira
 ano: 2014
