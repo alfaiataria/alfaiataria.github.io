@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "murete"
+category: blog
+image: castro-2.jpg
+tags:
+- Castro Marim
+ano: 2014
+---
+
+
+

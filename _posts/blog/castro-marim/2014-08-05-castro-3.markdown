@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Deixa-me"
+category: blog
+image: castro-1.jpg
+tags:
+- Castro Marim
+ano: 2014
+---
+
+
+

@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "God Shave"
+category: blog
+image: santo-2.jpg
+tags:
+- Vila Real de Santo António
+ano: 2014
+---
+
+
+

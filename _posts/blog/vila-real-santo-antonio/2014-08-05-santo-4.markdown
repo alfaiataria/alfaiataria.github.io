@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Dripping"
+category: blog
+image: santo-4.jpg
+tags:
+- Vila Real de Santo António
+ano: 2014
+---
+
+
+

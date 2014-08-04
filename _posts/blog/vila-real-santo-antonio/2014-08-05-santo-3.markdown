@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Esteve Aqui"
+category: blog
+image: santo-3.jpg
+tags:
+- Vila Real de Santo António
+ano: 2014
+---
+
+
+
