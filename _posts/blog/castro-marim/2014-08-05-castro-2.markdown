@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Em paz e sossego"
+category: blog
+image: castro-4.jpg
+tags:
+- Castro Marim
+ano: 2014
+---
+
+
+

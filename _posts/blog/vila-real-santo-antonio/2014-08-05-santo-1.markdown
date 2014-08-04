@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Para sempre"
+category: blog
+image: santo-1.jpg
+tags:
+- Vila Real de Santo António
+ano: 2014
+---
+
+
+
