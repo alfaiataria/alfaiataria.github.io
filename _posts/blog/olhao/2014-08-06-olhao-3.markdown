@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Dancing pisci-o-avícola & outros"
+category: blog
+image: olhao-3.jpg
+tags:
+- Olhão
+ano: 2014
+---
+
+
+

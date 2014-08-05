@@ -7,10 +7,16 @@
 		margin-bottom: 20px;
 		float: left;
 
+		@media (max-width: @screen-xs-max) { 
+			font-size: 7.5px;
+			max-width: 200px;
+			white-space: nowrap;
+			  overflow: hidden;
+			  text-overflow: ellipsis;
+    		}
 
-		strong {
-			font-size: 8.5px;
-		}
+
+	
 	}
 
 
