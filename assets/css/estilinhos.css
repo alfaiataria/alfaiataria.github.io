@@ -6058,6 +6058,9 @@ ul.top-menu {
 .option-set li.nocaps a {
   text-transform: none;
 }
+.header-2 ul.main-menu li:first-child {
+  margin-left: 0px;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
