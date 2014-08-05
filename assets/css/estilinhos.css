@@ -6442,8 +6442,14 @@ ul.top-menu {
   margin-bottom: 20px;
   float: left;
 }
-.blog h6 strong {
-  font-size: 8.5px;
+@media (max-width: 767px) {
+  .blog h6 {
+    font-size: 7.5px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 .blog h6.right {
   float: right;
