@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "perdida"
+category: blog
+image: santo-7.jpg
+tags:
+- Vila Real de Santo António
+ano: 2014
+---
+
+
+
