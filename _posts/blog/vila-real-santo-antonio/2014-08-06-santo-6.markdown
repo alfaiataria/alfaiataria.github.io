@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "eterno"
+category: blog
+image: santo-6.jpg
+tags:
+- Vila Real de Santo António
+ano: 2014
+---
+
+
+

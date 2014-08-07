@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "20c"
+category: blog
+image: tavira-20.jpg
+tags:
+- Tavira
+ano: 2014
+---
+
+
+
