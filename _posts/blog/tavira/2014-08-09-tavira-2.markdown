@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "exclusivo"
+category: blog
+image: tavira-30.jpg
+tags:
+- Tavira
+ano: 2014
+---
+
+
+

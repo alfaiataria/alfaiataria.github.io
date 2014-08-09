@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "três italianas à janela"
+category: blog
+image: tavira-31.jpg
+tags:
+- Tavira
+ano: 2014
+---
+
+
+
