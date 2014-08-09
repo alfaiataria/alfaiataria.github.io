@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "a crise em 3 barcaças"
+title:  "entre outras coisas"
 category: blog
-image: tavira-5.jpg
+image: tavira-3.jpg
 tags:
 - tavira
 ano: 2014
