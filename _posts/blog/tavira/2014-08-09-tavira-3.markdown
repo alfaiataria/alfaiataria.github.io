@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "sol da manhã"
+category: blog
+image: tavira-28.jpg
+tags:
+- Tavira
+ano: 2014
+---
+
+
+

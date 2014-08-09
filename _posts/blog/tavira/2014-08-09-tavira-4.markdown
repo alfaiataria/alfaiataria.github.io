@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "raquetes"
+category: blog
+image: tavira-29.jpg
+tags:
+- Tavira
+ano: 2014
+---
+
+
+
