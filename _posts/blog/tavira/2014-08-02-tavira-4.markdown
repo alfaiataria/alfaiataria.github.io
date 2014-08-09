@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "a seus pés"
+title:  "a crise em 3 barcaças"
 category: blog
-image: tavira-4.jpg
+image: tavira-5.jpg
 tags:
 - tavira
 ano: 2014

@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "h"
+title:  "mudança de poiso"
 category: blog
-image: tavira-9.jpg
+image: tavira.jpg
 tags:
 - tavira
 ano: 2014
