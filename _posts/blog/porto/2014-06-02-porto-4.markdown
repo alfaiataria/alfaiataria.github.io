@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photos
 title:  "haver, há."
 category: blog
 image: porto-3.jpg

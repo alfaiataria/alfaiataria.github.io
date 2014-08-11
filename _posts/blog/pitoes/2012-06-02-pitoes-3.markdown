@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "e dizer palavrões"
+category: blog
+image: pitoes-3.jpg
+tags:
+- Pitões das Júnias
+ano: 2012
+---
+
+
+
