@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "bro-x"
+category: blog
+image: barcelos-3.jpg
+tags:
+- barcelos
+ano: 2012
+---
+
+
+

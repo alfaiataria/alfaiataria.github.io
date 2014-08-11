@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "amendoas, alfarrobas e figos"
+category: blog
+image: barcelos-1.jpg
+tags:
+- barcelos
+ano: 2012
+---
+
+
+

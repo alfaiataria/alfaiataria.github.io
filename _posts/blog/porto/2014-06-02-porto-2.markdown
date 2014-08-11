@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photos
 title:  "eterno"
 category: blog
 image: porto-1.jpg
