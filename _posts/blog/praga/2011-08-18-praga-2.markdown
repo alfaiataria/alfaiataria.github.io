@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "K"
+category: blog
+image: praga-2.jpg
+tags:
+- Praga
+ano: 2011
+---
+
+
+

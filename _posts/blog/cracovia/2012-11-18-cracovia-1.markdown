@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "assim começa"
+category: blog
+image: cracovia-1.jpg
+tags:
+- Cracóvia
+ano: 2012
+---
+
+
+
