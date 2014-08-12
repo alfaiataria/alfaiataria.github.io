@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "J"
+title:  "Heróis do Mar"
 category: blog
-image: tavira-33.jpg
+image: tavira-32.jpg
 tags:
 - Tavira
 ano: 2014
