@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Toi"
+category: blog
+image: praga-1.jpg
+tags:
+- Praga
+ano: 2011
+---
+
+
+

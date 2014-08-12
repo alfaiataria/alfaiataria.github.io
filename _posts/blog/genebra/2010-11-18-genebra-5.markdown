@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "para lá e para cá"
+category: blog
+image: genebra-5.jpg
+tags:
+- Genebra
+ano: 2010
+---
+
+
+
