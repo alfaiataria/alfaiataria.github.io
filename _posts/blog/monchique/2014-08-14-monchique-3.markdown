@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "eu, tu, e um mosteiro"
+category: blog
+image: monchique-3.jpg
+tags:
+- monchique
+ano: 2014
+---
+
+
+
