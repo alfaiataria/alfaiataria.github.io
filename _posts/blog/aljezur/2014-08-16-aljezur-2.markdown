@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Lota no campo"
+category: blog
+image: aljezur-2.jpg
+tags:
+- Aljezur
+ano: 2014
+---
+
+
+
