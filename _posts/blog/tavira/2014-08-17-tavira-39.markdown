@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "dentinhos"
+category: blog
+image: tavira-38.jpg
+tags:
+- tavira
+ano: 2014
+---
+
+
+
