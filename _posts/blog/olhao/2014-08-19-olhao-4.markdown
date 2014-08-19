@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Há que deixá-lo pôr-se"
+category: blog
+image: olhao-4.jpg
+tags:
+- Olhão
+ano: 2014
+---
+
+
+
