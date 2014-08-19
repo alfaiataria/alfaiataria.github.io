@@ -1,10 +1,10 @@
 ---
 layout: photos
-title:  "X+M"
+title:  "mestre"
 category: blog
-image: tavira-37.jpg
+image: olhao-5.jpg
 tags:
-- tavira
+- Olhão
 ano: 2014
 ---
 
