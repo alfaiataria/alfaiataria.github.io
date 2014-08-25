@@ -1,6 +1,6 @@
 ---
 layout: photos
-title:  "os primos"
+title:  "primos"
 category: blog
 image: tavira-50.jpg
 tags:

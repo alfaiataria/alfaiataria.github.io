@@ -1,6 +1,6 @@
 ---
 layout: photos
-title:  "a minha e a deles"
+title:  "a minha e a do lago"
 category: blog
 image: tavira-49.jpg
 tags:
