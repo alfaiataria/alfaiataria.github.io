@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "a minha e a deles"
+category: blog
+image: tavira-49.jpg
+tags:
+- tavira
+ano: 2014
+---
+
+
+
