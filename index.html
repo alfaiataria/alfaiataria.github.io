@@ -4,11 +4,11 @@ title: alfaiataria
 ---
 
   <div class="row">
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
         {% include sidebar.html %}
     </div>
 
-    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8 image-list">
+    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12  image-list">
       <ul id="container" class="posts clearfix">
         
 
@@ -18,9 +18,9 @@ title: alfaiataria
             <a href="{{ post.url }}">
                     
             <img src="/assets/images/{{ post.image }}" class="img-responsive grayscale">
-           
             
             </a>
+            <h6 class="hidden-lg hidden-md hidden-sm">{{ post.tags[0] }} | {{ post.ano }}</h6>
           </li>
           {% endif %}
         {% endfor %}
