@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Cadeira"
+category: blog
+image: lepe-2.jpg
+tags:
+- lepe
+ano: 2014
+---
+
+
+

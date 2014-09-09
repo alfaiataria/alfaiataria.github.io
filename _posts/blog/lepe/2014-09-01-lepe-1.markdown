@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "cama"
+category: blog
+image: lepe-1.jpg
+tags:
+- lepe
+ano: 2014
+---
+
+
+
