@@ -1,6 +1,6 @@
 ---
 layout: photos
-title:  "Bap"
+title:  "Bielorrússia"
 category: blog
 image: sagres-2.jpg
 tags:
