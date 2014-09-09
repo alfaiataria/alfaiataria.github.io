@@ -6206,6 +6206,8 @@ ul.top-menu {
   float: left;
   text-align: left;
   margin: 0px 10px 10px 0px;
+}
+.element img {
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
@@ -6267,7 +6269,7 @@ ul.top-menu {
 @media (max-width: 767px) {
   .element.livros,
   .element.postal {
-    width: 200px;
+    width: 290px;
   }
 }
 .element.cartazes {
@@ -6286,7 +6288,7 @@ ul.top-menu {
 }
 @media (max-width: 767px) {
   .element.cartazes {
-    width: 200px;
+    width: 290px;
   }
 }
 .element:hover {
