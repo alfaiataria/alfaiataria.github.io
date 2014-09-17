@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Preto — História de uma Cor"
+category: livros
+image: 2014-on-preto.jpg
+tags:
+- Orfeu Negro
+- pequeno
+ano: 2014
+---
+
+- 12,2 x 18 cm
+- Orfeu Negro
+- 2014
+
