@@ -35,7 +35,7 @@ title: alfaiataria
           <li class="item {{ post.category }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }}" >
             <div class="sobre">
                  
-            <img src="/assets/images/{{ post.image }}" class="img-responsive">
+            <img src="/assets/images/{{ post.ano }}/{{ post.image }}" class="img-responsive">
             <div class="inside-info">
               <h5>{{ post.title }}</h5> — {{ post.content }}
             </div>
