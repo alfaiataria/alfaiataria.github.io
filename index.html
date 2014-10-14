@@ -17,7 +17,7 @@ title: alfaiataria
           <li class="element {{ post.category }} {{ posts.first }} {{ post.tags[0] | downcase | handleize | replace: 'í', 'i'}} {{ post.tags[1] }} {{ post.ano }} " >
             <a href="{{ post.url }}">
                     
-            <img src="/assets/images/{{ post.image }}" class="img-responsive grayscale">
+            <img src="/assets/images/{{ post.ano }}/{{ post.image }}" class="img-responsive grayscale">
             
             </a>
             <h6 class="hidden-lg hidden-md hidden-sm">{{ post.tags[0] }} | {{ post.ano }}</h6>
