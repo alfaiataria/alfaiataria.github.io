@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Arte de Viver para a Geração Nova"
+category: livros
+image: 2014-ll-esta-ma-fama.jpg
+tags:
+- letra livre
+ano: 2014
+---
+
+- 14 x 21 cm
+- Letra Livre
+- 2014
+

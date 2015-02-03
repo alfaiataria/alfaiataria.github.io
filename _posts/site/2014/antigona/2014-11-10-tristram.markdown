@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "A Vida e Opiniões de Tristram Shandy"
+category: livros
+image: 2014-ant-tristram.jpg
+tags:
+- Antígona
+- no-shadow
+ano: 2014
+---
+
+- 17 x 24 cm
+- Antígona
+- 2014
+
