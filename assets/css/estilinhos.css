@@ -6252,6 +6252,11 @@ ul.top-menu {
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=65);
   filter: alpha(opacity=65);
 }
+.element.no-shadow img {
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
 .element.livros,
 .element.postal {
   width: 190px;

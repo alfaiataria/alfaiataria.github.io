@@ -1,6 +1,6 @@
 name: alfaiataria
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 permalink: /:title.html
 
