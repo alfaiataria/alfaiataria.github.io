@@ -7,7 +7,7 @@ title: alfaiataria
     
 
     <div class="col-lg-10 col-lg-offset-2  col-md-10 col-sm-12 col-xs-12 image-list">
-      <ul id="container" class="clearfix">
+      <ul id="blog-list" class="clearfix">
         
 
         {% for post in site.posts %}
@@ -21,9 +21,27 @@ title: alfaiataria
            
             
             {% endif %}
+            <div class="clearfix"></div>
           </li>
         {% endfor %}
       </ul>
     </div>
 </div>
  
+
+<script type="text/javascript">
+
+// infinitescroll() is called on the element that surrounds 
+// the items you will be loading more of
+  $('#blog-list').infinitescroll({
+    
+    contentSelector : "#blog-list",
+    navSelector  : "li.blog",            
+                   // selector for the paged navigation (it will be hidden)
+    nextSelector : "li.blog a:first",    
+                   // selector for the NEXT link (to page 2)
+    itemSelector : "#blog-list > li.blog"          
+                   // selector for all items you'll retrieve
+  });
+
+</script>
