@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Prazer"
+category: blog
+image: cabo-verde-11.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+

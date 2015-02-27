@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Câmara Escura"
+category: blog
+image: cabo-verde-13.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+

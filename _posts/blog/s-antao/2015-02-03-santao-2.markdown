@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Equipa"
+category: blog
+image: cabo-verde-14.jpg
+tags:
+- Santo Antão
+ano: 2015
+---
+
+
+

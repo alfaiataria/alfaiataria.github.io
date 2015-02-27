@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Xixi"
+category: blog
+image: cabo-verde-5.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+

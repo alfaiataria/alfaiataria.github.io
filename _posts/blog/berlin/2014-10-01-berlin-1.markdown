@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Arrumações"
+category: blog
+image: berlin.jpg
+tags:
+- berlin
+ano: 2014
+---
+
+
+

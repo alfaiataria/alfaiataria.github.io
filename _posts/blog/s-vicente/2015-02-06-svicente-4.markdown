@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Terraço"
+category: blog
+image: cabo-verde-2.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+

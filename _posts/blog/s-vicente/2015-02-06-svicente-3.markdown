@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Baliza"
+category: blog
+image: cabo-verde-6.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+

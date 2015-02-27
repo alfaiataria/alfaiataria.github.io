@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Esqueleto"
+category: blog
+image: cabo-verde-21.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+

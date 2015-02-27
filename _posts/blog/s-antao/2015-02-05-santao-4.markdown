@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "curva contra-curva"
+category: blog
+image: cabo-verde-17.jpg
+tags:
+- Santo Antão
+ano: 2015
+---
+
+
+

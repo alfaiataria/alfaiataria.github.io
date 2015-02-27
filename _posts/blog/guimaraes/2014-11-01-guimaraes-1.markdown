@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Pinheiro"
+category: blog
+image: guimaraes.jpg
+tags:
+- Guimarães
+ano: 2014
+---
+
+
+

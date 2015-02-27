@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Devoção"
+category: blog
+image: cabo-verde-9.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+
