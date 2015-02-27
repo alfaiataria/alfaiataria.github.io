@@ -9,14 +9,7 @@
         <meta property="og:type"   content="website" /> 
         <meta name="viewport" content="width=device-width">
         <meta property="og:image" 
-        content="http://alfaiataria.org/assets/images/blog/
-        {% if page.title == 'blog' %}        
-        {% for post in site.posts limit:1 %}
-        {{ post.image }} 
-        {% endfor %}
-        {% else %}
-        {{ page.image }}
-        {% endif %}" />
+        content="http://alfaiataria.org/assets/images/blog/{% if page.title == 'blog' %}{% for post in site.posts limit:1 %}{{ post.image }}{% endfor %}{% else %}{{ page.image }}{% endif %}" />
         <meta property="og:url" content="http://alfaiataria.org{{ page.url }}" />
         <meta property="og:title" content="{{ page.title }}" />
 
