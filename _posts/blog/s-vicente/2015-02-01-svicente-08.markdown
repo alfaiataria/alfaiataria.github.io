@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Chili"
+category: blog
+image: cabo-verde-3.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+

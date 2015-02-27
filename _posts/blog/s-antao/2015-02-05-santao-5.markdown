@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "tele-pega"
+category: blog
+image: cabo-verde-16.jpg
+tags:
+- Santo Antão
+ano: 2015
+---
+
+
+

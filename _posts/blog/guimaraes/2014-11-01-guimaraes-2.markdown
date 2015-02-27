@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Sr Toboso"
+category: blog
+image: guimaraes-2.jpg
+tags:
+- Guimarães
+ano: 2014
+---
+
+
+

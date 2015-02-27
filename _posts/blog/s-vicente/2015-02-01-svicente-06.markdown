@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Racionalismo"
+category: blog
+image: cabo-verde-12.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+

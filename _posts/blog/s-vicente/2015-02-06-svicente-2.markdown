@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Tabacaria"
+category: blog
+image: cabo-verde-22.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+

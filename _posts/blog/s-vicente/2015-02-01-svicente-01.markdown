@@ -1,0 +1,12 @@
+---
+layout: photos
+title:  "Mendinga"
+category: blog
+image: cabo-verde-19.jpg
+tags:
+- São Vicente
+ano: 2015
+---
+
+
+
