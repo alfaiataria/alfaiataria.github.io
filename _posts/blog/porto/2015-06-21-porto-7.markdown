@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "danny"
+title:  "amigo da rita"
 category: blog
-image: porto-13.jpg
+image: porto-10.jpg
 tags:
 - porto
 ano: 2015
