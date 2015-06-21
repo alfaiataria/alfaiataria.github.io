@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "danny"
+title:  "ece"
 category: blog
-image: porto-13.jpg
+image: porto-8.jpg
 tags:
 - porto
 ano: 2015

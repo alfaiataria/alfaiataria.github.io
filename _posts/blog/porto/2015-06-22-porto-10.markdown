@@ -1,8 +1,8 @@
 ---
 layout: photos
-title:  "danny"
+title:  "são juom"
 category: blog
-image: porto-13.jpg
+image: porto-7.jpg
 tags:
 - porto
 ano: 2015
