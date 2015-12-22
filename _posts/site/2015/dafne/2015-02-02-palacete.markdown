@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Palacete Marques Gomes"
+category: livros
+image: 2015-dafne-palacete.jpg
+tags:
+- Dafne
+ano: 2015
+---
+
+- 15 x 22,5 cm
+- Dafne
+- 2015
+
