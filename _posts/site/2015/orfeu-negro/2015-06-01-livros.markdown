@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Os Livros da Minha Vida"
+title:  "Os Filmes da Minha Vida"
 category: livros
 image: 2015-on-livros.jpg
 tags:
