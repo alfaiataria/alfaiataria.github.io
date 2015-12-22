@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Os Livros da Minha Vida"
+category: livros
+image: 2015-on-livros.jpg
+tags:
+- Orfeu Negro
+- grande
+ano: 2015
+---
+
+- 17 x 21 cm
+- Orfeu Negro
+- 2015
+

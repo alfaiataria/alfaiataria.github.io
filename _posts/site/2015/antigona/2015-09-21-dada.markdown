@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Dada"
+category: livros
+image: 2015-ant-dada.jpg
+tags:
+- Antígona
+ano: 2015
+---
+
+- 17 x 24 cm
+- Antígona
+- 2015
+
