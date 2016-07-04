@@ -1,5 +1,5 @@
 name: alfaiataria
-markdown: redcarpet
+
 highlighter: pygments
 
 permalink: /:title.html
