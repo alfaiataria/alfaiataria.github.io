@@ -1,5 +1,5 @@
 name: alfaiataria
-
+markdown: kramdown
 highlighter: pygments
 
 permalink: /:title.html
